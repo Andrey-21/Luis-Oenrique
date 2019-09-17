@@ -1,0 +1,196 @@
+$colorDarkGrey: #4C4C4C;
+$colorGrey: #9B9B9B;
+$colorTitle: #727272;
+$fontAsap: 'Asap', sans-serif;
+
+@mixin btn {
+  border: 1px solid $colorDarkGrey;
+  background-color: transparent;
+  padding: 20px 40px;
+  color: $colorDarkGrey;
+  outline: none;
+  transition: .3s;
+
+  &:hover {
+    border-color: #fff;
+    background-color: #fff;
+  }
+}
+
+@mixin btn-dark {
+
+}
+
+@mixin title {
+  font-size: 46px;
+  color: $colorTitle;
+  font-family: $fontAsap;
+}
+
+.main-inner {
+  background: url(../images/baner.png) center no-repeat;
+  background-size: cover;
+  min-height: 800px;
+  padding-bottom: 20px;
+
+  .header {
+    padding-top: 30px;
+  }
+
+
+  .nav-item {
+    margin-left: 40px;
+
+    .nav-link {
+      color: $colorDarkGrey;
+      font-family: $fontAsap;
+      font-size: 20px;
+      border-bottom: 2px solid transparent;
+      transition: .3s;
+
+      &:hover {
+        border-bottom-color: $colorDarkGrey;
+      }
+    }
+  }
+
+  .page-content {
+    margin-bottom: 170px;
+
+    .title {
+      font-family: $fontAsap;
+      color: $colorDarkGrey;
+      font-size: 88px;
+      margin-bottom: auto;
+    }
+
+    .title-small {
+      color: $colorGrey;
+      font-size: 22px;
+      font-family: $fontAsap;
+      margin-bottom: 32px;
+    }
+  }
+
+  .page-btn {
+    @include btn;
+    margin-right: 20px;
+  }
+}
+
+.about {
+  padding-top: 107px;
+  padding-bottom: 127px;
+
+  .about-title {
+    @include title;
+    max-width: 310px;
+    margin-bottom: 13px;
+
+    &:before {
+      content: "";
+      width: 60px;
+      height: 3px;
+      background-color: $colorTitle;
+      display: block;
+    }
+  }
+
+  .about-text {
+    font-size: 16px;
+    color: $colorDarkGrey;
+    font-family: $fontAsap;
+    max-width: 470px;
+    line-height: 26px;
+    margin-bottom: 36px;
+  }
+
+  .about-btn {
+    @include btn;
+
+    &:hover {
+      background-color: #000;
+      color: #fff;
+      margin: 0 auto;
+    }
+  }
+}
+
+.services {
+  padding: 120px 0;
+  background-color: #f6f6f6;
+
+  .title {
+    @include title;
+    margin-bottom: 60px;
+
+    &:before {
+      content: "";
+      width: 60px;
+      height: 3px;
+      background-color: $colorTitle;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .item-proffer {
+    margin-bottom: 80px;
+
+    .icon {
+      width: 77px;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.skills {
+  padding: 127px 0;
+
+  .title {
+    @include title;
+    margin-bottom: 62px;
+
+    &:before {
+      content: "";
+      width: 60px;
+      height: 3px;
+      background-color: $colorTitle;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+
+.portfolio {
+  padding: 127px 0;
+  background-color: #f6f6f6;
+
+  .title {
+    @include title;
+    margin-bottom: 46px;
+
+    &:before {
+      content: "";
+      width: 60px;
+      height: 3px;
+      background-color: $colorTitle;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .portfolio-img {
+    margin-bottom: 10px;
+  }
+
+  .portfolio-btn {
+    @include btn;
+    margin-top: 30px;
+
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+}

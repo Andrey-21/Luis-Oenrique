@@ -1,0 +1,147 @@
+.main-inner {
+  background: url(../images/baner.png) center no-repeat;
+  background-size: cover;
+  min-height: 800px;
+  padding-bottom: 20px; }
+  .main-inner .header {
+    padding-top: 30px; }
+  .main-inner .nav-item {
+    margin-left: 40px; }
+    .main-inner .nav-item .nav-link {
+      color: #4C4C4C;
+      font-family: "Asap", sans-serif;
+      font-size: 20px;
+      border-bottom: 2px solid transparent;
+      transition: .3s; }
+      .main-inner .nav-item .nav-link:hover {
+        border-bottom-color: #4C4C4C; }
+  .main-inner .page-content {
+    margin-bottom: 170px; }
+    .main-inner .page-content .title {
+      font-family: "Asap", sans-serif;
+      color: #4C4C4C;
+      font-size: 88px;
+      margin-bottom: auto; }
+    .main-inner .page-content .title-small {
+      color: #9B9B9B;
+      font-size: 22px;
+      font-family: "Asap", sans-serif;
+      margin-bottom: 32px; }
+  .main-inner .page-btn {
+    border: 1px solid #4C4C4C;
+    background-color: transparent;
+    padding: 20px 40px;
+    color: #4C4C4C;
+    outline: none;
+    transition: .3s;
+    margin-right: 20px; }
+    .main-inner .page-btn:hover {
+      border-color: #fff;
+      background-color: #fff; }
+
+.about {
+  padding-top: 107px;
+  padding-bottom: 127px; }
+  .about .about-title {
+    font-size: 46px;
+    color: #727272;
+    font-family: "Asap", sans-serif;
+    max-width: 310px;
+    margin-bottom: 13px; }
+    .about .about-title:before {
+      content: "";
+      width: 60px;
+      height: 3px;
+      background-color: #727272;
+      display: block; }
+  .about .about-text {
+    font-size: 16px;
+    color: #4C4C4C;
+    font-family: "Asap", sans-serif;
+    max-width: 470px;
+    line-height: 26px;
+    margin-bottom: 36px; }
+  .about .about-btn {
+    border: 1px solid #4C4C4C;
+    background-color: transparent;
+    padding: 20px 40px;
+    color: #4C4C4C;
+    outline: none;
+    transition: .3s; }
+    .about .about-btn:hover {
+      border-color: #fff;
+      background-color: #fff; }
+    .about .about-btn:hover {
+      background-color: #000;
+      color: #fff;
+      margin: 0 auto; }
+
+.services {
+  padding: 120px 0;
+  background-color: #f6f6f6; }
+  .services .title {
+    font-size: 46px;
+    color: #727272;
+    font-family: "Asap", sans-serif;
+    margin-bottom: 60px; }
+    .services .title:before {
+      content: "";
+      width: 60px;
+      height: 3px;
+      background-color: #727272;
+      display: block;
+      margin: 0 auto; }
+  .services .item-proffer {
+    margin-bottom: 80px; }
+    .services .item-proffer .icon {
+      width: 77px;
+      margin-bottom: 15px; }
+
+.skills {
+  padding: 127px 0; }
+  .skills .title {
+    font-size: 46px;
+    color: #727272;
+    font-family: "Asap", sans-serif;
+    margin-bottom: 62px; }
+    .skills .title:before {
+      content: "";
+      width: 60px;
+      height: 3px;
+      background-color: #727272;
+      display: block;
+      margin: 0 auto; }
+
+.portfolio {
+  padding: 127px 0;
+  background-color: #f6f6f6; }
+  .portfolio .title {
+    font-size: 46px;
+    color: #727272;
+    font-family: "Asap", sans-serif;
+    margin-bottom: 46px; }
+    .portfolio .title:before {
+      content: "";
+      width: 60px;
+      height: 3px;
+      background-color: #727272;
+      display: block;
+      margin: 0 auto; }
+  .portfolio .portfolio-img {
+    margin-bottom: 10px; }
+  .portfolio .portfolio-btn {
+    border: 1px solid #4C4C4C;
+    background-color: transparent;
+    padding: 20px 40px;
+    color: #4C4C4C;
+    outline: none;
+    transition: .3s;
+    margin-top: 30px; }
+    .portfolio .portfolio-btn:hover {
+      border-color: #fff;
+      background-color: #fff; }
+    .portfolio .portfolio-btn:hover {
+      background-color: #000;
+      color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
