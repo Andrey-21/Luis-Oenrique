@@ -194,3 +194,86 @@ $fontAsap: 'Asap', sans-serif;
     }
   }
 }
+
+.slider {
+  padding-top: 125px;
+  padding-bottom: 120px;
+
+  .title {
+    @include title;
+    margin-bottom: 60px;
+
+    &:before {
+      content: "";
+      width: 60px;
+      height: 3px;
+      background-color: $colorTitle;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .slider-inner {
+    border: 1px solid #000;
+    padding-top: 80px;
+    padding-bottom: 40px;
+
+    .owl-carousel {
+
+      .owl-item img {
+
+      width: auto;
+      margin-right: 30px;
+      }
+
+      .owl-nav {
+        display: none;
+      }
+
+      .owl-dots {
+        display: flex;
+        justify-content: center;
+
+        .owl-dot {
+          border: 1px solid #000;
+          padding: 7px!important;
+          background: #fff;
+          margin-right: 7px;
+          margin-top: 15px;
+
+          .active {
+            background-color: #000000;
+          }
+        }
+      }
+    }
+
+    .slide-title {
+      font-family: 'Asap-500', sans-serif;
+      text-transform: uppercase;
+      font-size: 30px;
+      color: #343434;
+    }
+
+    .slide-small-title {
+      font-size: 12px;
+      font-family: 'Asap:400i', sans-serif;
+      color: $colorGrey;
+    }
+
+    .slide-text {
+      max-width: 560px;
+      color: $colorGrey;
+    }
+  }
+}
+
+.total-main {
+  background-color: #f6f6f6;
+  padding: 80px 0;
+
+  .total-img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+}
