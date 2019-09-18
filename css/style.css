@@ -199,4 +199,48 @@
     max-width: 100px;
     max-height: 100px; }
 
+.footer {
+  background: url("../images/footer-fon.png") center center no-repeat;
+  background-size: cover;
+  padding: 145px 0;
+  margin-top: 60px; }
+  .footer .title {
+    font-size: 46px;
+    color: #F0F0F0;
+    font-family: "Asap", sans-serif;
+    margin-bottom: 70px; }
+    .footer .title:before {
+      content: "";
+      width: 60px;
+      height: 3px;
+      background-color: #F0F0F0;
+      display: block;
+      margin: 0 auto; }
+  .footer .footer-field {
+    width: 370px;
+    height: 60px;
+    padding-left: 10px;
+    border: none;
+    background-color: #fff;
+    color: #545454; }
+  .footer .footer-message {
+    width: 751px;
+    max-width: 751px;
+    height: 210px;
+    max-height: 210px;
+    margin-top: 30px;
+    padding: 10px;
+    color: #545454;
+    margin-bottom: 30px;
+    resize: none; }
+  .footer .footer-btn {
+    outline: none;
+    border: none;
+    background-color: #fff;
+    padding: 17px 30px;
+    font-family: "Asap", sans-serif;
+    color: #4C4C4C; }
+    .footer .footer-btn i {
+      margin-left: 7px; }
+
 /*# sourceMappingURL=style.css.map */
