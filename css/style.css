@@ -195,14 +195,21 @@
 .total-main {
   background-color: #f6f6f6;
   padding: 80px 0; }
-  .total-main .total-img {
-    max-width: 100px;
-    max-height: 100px; }
+  .total-main .total-icon {
+    height: 74px;
+    margin-bottom: 30px; }
+  .total-main .total {
+    font-size: 30px;
+    font-family: "Asap", sans-serif;
+    color: #333333; }
+  .total-main .total-text {
+    font-size: 22px;
+    color: #333333; }
 
 .footer {
   background: url("../images/footer-fon.png") center center no-repeat;
   background-size: cover;
-  padding: 145px 0;
+  padding-top: 145px;
   margin-top: 60px; }
   .footer .title {
     font-size: 46px;
@@ -217,15 +224,13 @@
       display: block;
       margin: 0 auto; }
   .footer .footer-field {
-    width: 370px;
+    width: 340px;
     height: 60px;
     padding-left: 10px;
     border: none;
     background-color: #fff;
     color: #545454; }
   .footer .footer-message {
-    width: 751px;
-    max-width: 751px;
     height: 210px;
     max-height: 210px;
     margin-top: 30px;
@@ -239,8 +244,32 @@
     background-color: #fff;
     padding: 17px 30px;
     font-family: "Asap", sans-serif;
-    color: #4C4C4C; }
+    color: #4C4C4C;
+    margin-bottom: 60px; }
     .footer .footer-btn i {
       margin-left: 7px; }
+  .footer .footer-bottom {
+    border-top: 1px solid #fff;
+    padding-top: 30px;
+    padding-bottom: 35px; }
+    .footer .footer-bottom .social-link {
+      text-decoration: none;
+      display: inline-block;
+      background-color: #fff;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      font-size: 18px;
+      color: #4C4C4C;
+      margin-right: 7px; }
+      .footer .footer-bottom .social-link:hover {
+        background-color: #0085B7;
+        color: #fff; }
+    .footer .footer-bottom .footer-text {
+      margin-left: 230px;
+      color: #fff;
+      font-size: 20px;
+      font-family: "Asap", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
