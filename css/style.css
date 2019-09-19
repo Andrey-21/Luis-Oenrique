@@ -2,7 +2,8 @@
   background: url(../images/baner.png) center no-repeat;
   background-size: cover;
   min-height: 800px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  max-width: 100%; }
   .main-inner .header {
     padding-top: 30px; }
   .main-inner .nav-item {
@@ -177,8 +178,8 @@
         background: #fff;
         margin-right: 7px;
         margin-top: 15px; }
-        .slider .slider-inner .owl-carousel .owl-dots .owl-dot .active {
-          background-color: #000000; }
+      .slider .slider-inner .owl-carousel .owl-dots .active {
+        background-color: #000000; }
     .slider .slider-inner .slide-title {
       font-family: 'Asap-500', sans-serif;
       text-transform: uppercase;
@@ -262,7 +263,8 @@
       text-align: center;
       font-size: 18px;
       color: #4C4C4C;
-      margin-right: 7px; }
+      margin-right: 7px;
+      margin-bottom: 10px; }
       .footer .footer-bottom .social-link:hover {
         background-color: #0085B7;
         color: #fff; }

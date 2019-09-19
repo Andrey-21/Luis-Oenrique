@@ -17,21 +17,36 @@
 <body>
 <section class="main-inner d-flex">
     <div class="container">
-        <header class="header d-flex justify-content-between">
-            <a href="#" class="nav-logo">
-                <img src="images/logo.png" alt="logo" class="logo">
-            </a>
-            <nav class="colapse navbar-colapse">
-                <ul class="navbar-nav flex-row text-uppercase">
-                    <li class="nav-item"><a href="#" class="nav-link">home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">about</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">service</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">portfolio</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">contact</a></li>
-                </ul>
+        <header class="header">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="logo" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </header>
-
         <div class="main-inner-content d-flex align-items-center h-100">
             <div class="page-content">
                 <h1 class="title">Luis Oenrique</h1>
@@ -48,17 +63,17 @@
 <section class="about">
     <div class="container">
         <div class="row">
-            <div class="col-6 m-auto d-flex justify-content-center align-items-center">
-                <div class="about-text">
+            <div class="col-12 col-md-6 col-lg-6 m-auto d-flex justify-content-center align-items-center">
+                <div class="about-text order-sm-0">
                     <h2 class="about-title">KNOW MORE ABOUT ME</h2>
                     <p class="about-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
                         ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
                         nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
                         Nulla consequat massa quis enim.</p>
-                    <button class="about-btn">DOWNLOAD MY CV</button>
+                    <button class="about-btn order-sm-2">DOWNLOAD MY CV</button>
                 </div>
             </div>
-            <div class="col-6"><img src="images/about-img.png" alt="us" class="about-img"></div>
+            <div class="col-12 col-md-6 col-lg-6 order-sm-1"><img src="images/about-img.png" alt="us" class="about-img w-100"></div>
         </div>
     </div>
 </section>
@@ -67,42 +82,42 @@
         <h2 class="title text-uppercase text-center">services</h2>
         <div class="services-item">
             <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="item-proffer d-flex align-items-center flex-column">
                         <img src="images/icon-1.png" alt="" class="icon">
                         <h4 class="title-proffer">User Research</h4>
                     </div>
                 </div>
 
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="item-proffer d-flex align-items-center flex-column">
                         <img src="images/icon-2.png" alt="" class="icon">
                         <h4 class="title-proffer">Looks and Feel Design (UI)</h4>
                     </div>
                 </div>
 
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="item-proffer d-flex align-items-center flex-column">
                         <img src="images/icon-3.png" alt="" class="icon">
                         <h4 class="title-proffer">IA And Wireframes</h4>
                     </div>
                 </div>
 
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="item-proffer d-flex align-items-center flex-column">
                         <img src="images/icon-4.png" alt="" class="icon">
                         <h4 class="title-proffer">Delivery</h4>
                     </div>
                 </div>
 
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="item-proffer d-flex align-items-center flex-column">
                         <img src="images/icon-5.png" alt="" class="icon">
                         <h4 class="title-proffer">User Testing</h4>
                     </div>
                 </div>
 
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="item-proffer d-flex align-items-center flex-column">
                         <img src="images/icon-6.png" alt="" class="icon">
                         <h4 class="title-proffer">Integration Support</h4>
@@ -117,7 +132,7 @@
         <h2 class="title text-uppercase text-center">skills</h2>
         <div class="row">
             <div class="col-12 d-flex justify-content-center">
-                <img src="images/img-skill.png" alt="" class="img-skill">
+                <img src="images/img-skill.png" alt="" class="img-skill w-100">
             </div>
         </div>
     </div>
@@ -127,36 +142,43 @@
         <h2 class="title text-uppercase text-center">portfolio</h2>
         <div class="row">
             <div class="main-cont d-flex flex-wrap justify-content-around">
-                <div class="col-4">
-                <div class="portfolio-inner">
-                    <img src="images/portfolio-img-1.png" alt="" class="portfolio-img">
+
+                <div class="col-12 col-md-6 col-lg-6 col-xl-4 w-100">
+                    <div class="portfolio-inner">
+                        <img src="images/portfolio-img-1.png" alt="" class="portfolio-img">
+                    </div>
                 </div>
 
-                <div class="portfolio-inner">
-                    <img src="images/portfolio-img-3.png" alt="" class="portfolio-img">
-                </div>
-                </div>
-
-                <div class="col-4">
-                <div class="portfolio-inner">
-                    <img src="images/portfolio-img-5.png" alt="" class="portfolio-img">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-4 w-100">
+                    <div class="portfolio-inner">
+                        <img src="images/portfolio-img-3.png" alt="" class="portfolio-img">
+                    </div>
                 </div>
 
-                <div class="portfolio-inner">
-                    <img src="images/portfolio-img-2.png" alt="" class="portfolio-img">
-                </div>
-                </div>
-
-                <div class="col-4">
-                <div class="portfolio-inner">
-                    <img src="images/portfolio-img-4.png" alt="" class="portfolio-img">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-4 w-100">
+                    <div class="portfolio-inner">
+                        <img src="images/portfolio-img-5.png" alt="" class="portfolio-img">
+                    </div>
                 </div>
 
-                <div class="portfolio-inner">
-                    <img src="images/portfolio-img-6.png" alt="" class="portfolio-img">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-4 w-100">
+                    <div class="portfolio-inner">
+                        <img src="images/portfolio-img-2.png" alt="" class="portfolio-img">
+                    </div>
                 </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 w-100">
+                    <div class="portfolio-inner">
+                        <img src="images/portfolio-img-4.png" alt="" class="portfolio-img">
+                    </div>
                 </div>
-                <button class="portfolio-btn text-uppercase">load more</button>
+
+                <div class="col-12 col-md-6 col-lg-6 col-xl-4 w-100">
+                    <div class="portfolio-inner">
+                        <img src="images/portfolio-img-6.png" alt="" class="portfolio-img">
+                    </div>
+                </div>
+                <button class="portfolio-btn text-uppercase text-center d-flex">load more</button>
             </div>
         </div>
     </div>
@@ -210,7 +232,7 @@
 <section class="total-main">
     <div class="container">
         <div class="row">
-            <div class="col-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <div class="inner-total d-flex flex-column align-items-center justify-content-center">
                     <div class="total-icon">
                         <img src="images/study-icon.png" alt="icon" class="total-img">
@@ -222,7 +244,7 @@
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <div class="inner-total d-flex flex-column align-items-center justify-content-center">
                     <div class="total-icon">
                         <img src="images/smile-icon.png" alt="icon" class="total-img">
@@ -234,7 +256,7 @@
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <div class="inner-total d-flex flex-column align-items-center justify-content-center">
                     <div class="total-icon">
                         <img src="images/delivery-icon.png" alt="icon" class="total-img">
@@ -246,7 +268,7 @@
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <div class="inner-total d-flex flex-column align-items-center justify-content-center">
                     <div class="total-icon">
                         <img src="images/cup-icon.png" alt="icon" class="total-img">
@@ -267,14 +289,14 @@
         <div class="col-12">
             <form action="" method="post" class="form d-flex flex-column align-items-center">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-12 col-md-12 col-lg-6">
                         <input type="text" placeholder="Name" class="footer-field">
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-md-12 col-lg-6">
                         <input type="text" placeholder="Email" class="footer-field">
                     </div>
                 </div>
-                <div class="col-8 d-flex flex-column align-items-center">
+                <div class="col-12 col-md-12 col-lg-8 d-flex flex-column align-items-center">
                 <textarea class="footer-message w-100">Message</textarea>
                 <button class="footer-btn text-uppercase">Send
                     <i class="fas fa-arrow-right"></i>

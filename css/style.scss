@@ -32,6 +32,11 @@ $fontAsap: 'Asap', sans-serif;
   background-size: cover;
   min-height: 800px;
   padding-bottom: 20px;
+  max-width: 100%;
+
+  //@include media-breakpoint-down(md) {
+  //  min-height: 600px;
+  //}
 
   .header {
     padding-top: 30px;
@@ -241,9 +246,9 @@ $fontAsap: 'Asap', sans-serif;
           margin-right: 7px;
           margin-top: 15px;
 
-          .active {
-            background-color: #000000;
           }
+        .active {
+          background-color: #000000;
         }
       }
     }
@@ -360,6 +365,7 @@ $fontAsap: 'Asap', sans-serif;
       font-size: 18px;
       color: #4C4C4C;
       margin-right: 7px;
+      margin-bottom: 10px;
 
       &:hover {
         background-color: #0085B7;
